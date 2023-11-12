@@ -164,7 +164,7 @@ section.secondary {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 .card h4 {
   font-size: 24px;
@@ -193,6 +193,15 @@ section.secondary {
 .card a:visited {
   color: black;
 }
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
 .text-center {
   text-align: center;
 }
@@ -220,5 +229,13 @@ section.secondary {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
