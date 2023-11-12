@@ -165,6 +165,7 @@ section.secondary {
 
 .img-responsive {
   width: 100%;
+  filter: contrast(90%);
 }
 .card h4 {
   font-size: 24px;
