@@ -209,6 +209,15 @@ section.secondary {
 .text-center {
   text-align: center;
 }
+.identification {
+  font-size: 13px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.identification a:visited {
+  color: black;
+}
 @media (max-width: 900px) {
   header {
     padding: 60px 0px;
