@@ -221,14 +221,16 @@ section.secondary {
   }
   header h3 {
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   header a {
     font-size: 10px;
     padding: 20px;
   }
-
+  section {
+    padding: 30px;
+  }
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 30px;
